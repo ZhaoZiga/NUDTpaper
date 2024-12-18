@@ -1,0 +1,69 @@
+%!TEX program = xelatex%
+%!BIB program = biber%
+% 出现任何问题请联系（zhangxinhang19@foxmial.com）
+% Ziger针对2021级毕设进行微调,使用Overleaf中Xelatex即可完美运行(2269591114@qq.com)
+
+
+\documentclass[biber,ttf]{nudtpaper}
+% biber-参考文献、ttf-字体、anon-盲评、twoside-book
+\usepackage{mynudt}
+
+\title{你的题目\\
+可以换行}%题目
+\author{张三}      %学员姓名
+\serialno{2019xxxx}       %学号
+\firstmajor{首次任职专业}       %首次任职专业
+\major{学历教育专业}       %学历教育专业
+\college{xx学院}       %所属学院
+\grade{2019级}       %年级
+\supervisor{xxx}       %指导教员
+\teachtitle{x教授}       %职称
+\department{xxxx}       %所属单位
+
+\begin{document}
+% 制作封面，生成目录，插入摘要，插入符号列表 \\
+% 默认符号列表使用denotation.tex，如果要使用nomencl \\
+% 需要注释掉denotation，并取消下面两个命令的注释。 \\
+% \cleardoublepage% \\
+% \printnomenclature% \\
+\maketitle
+\frontmatter
+\tableofcontents
+\listoffigures
+\listoftables
+
+%如果不是送审论文，则将true改为false即可
+\newif\ifreview\reviewfalse
+
+\midmatter
+\input{data/abstract}
+\input{data/denotation}
+
+%书写正文，可以根据需要增添章节; 正文还包括致谢，参考文献与成果
+\mainmatter
+\input{data/chap01}
+\input{data/chap02}
+
+\input{data/ack}
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{参考文献}
+\renewcommand{\normalsize}{\wuhao[1.25]} %
+\renewcommand{\baselinestretch}{1.35}
+\ifisbiber
+{\hyphenpenalty=500 %
+\tolerance=9900 %
+\printbibliography[heading=bibliography, title=参考文献]
+}
+\else
+\bibliographystyle{ref/bstutf8}
+\bibliography{ref/refs}
+\fi
+
+
+\appendix
+\backmatter
+\input{data/appendix01}
+
+\end{document}

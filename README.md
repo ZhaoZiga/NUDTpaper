@@ -1,7 +1,10 @@
 # NUDTpaper
 NUDT本科毕业论文Latex模板
+https://github.com/ZhaoZiga/NUDTpaper.git
+
 本模板是基于
-https://github.com/Trikim-Zhang/nudtpaper-undergraduate.git(nudtpaper-undergraduate)和
+https://github.com/Trikim-Zhang/nudtpaper-undergraduate.git(nudtpaper-undergraduate)
+和
 https://github.com/1017416696/ncepu-pro-master-thesis.git(ncepu-pro-master-thesis)
 进行修改和完善的
 如遇到使用问题，请在 GitHub 上提交 Issue，并附上详细描述和截图。
@@ -14,11 +17,11 @@ https://github.com/1017416696/ncepu-pro-master-thesis.git(ncepu-pro-master-thesi
 
 # 免责声明
 本模板使用者须知：
-## 使用风险：
+### 使用风险：
 本模板未经学校相关部门审核及授权，使用前请务必斟酌。
 因使用本模板而引起的任何格式审查问题，模板作者不承担任何责任。
 本模板只能生成 PDF 格式，如需其他格式，请自行转换。
-## 维护说明：
+### 维护说明：
 本模板为个人业余时间开发维护，不保证及时更新
 作者会尽可能修复发现的问题，但不对修复时间做出承诺
 欢迎提交Issue和Pull Request来改进模板

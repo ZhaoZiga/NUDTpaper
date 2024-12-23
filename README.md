@@ -14,7 +14,7 @@ https://github.com/1017416696/ncepu-pro-master-thesis.git(ncepu-pro-master-thesi
 
 # 模板使用
 本模板可在Overleaf平台上流畅运行
-1. **下载zip文件**
+1. **点击绿色'Code'按钮,下载zip文件**
 2. **上传zip文件到Overleaf平台**
 3. **点击Menu,选择'Xelatex'Compiler编译**
 4. **即可得到pdf版本毕业设计(论文)**

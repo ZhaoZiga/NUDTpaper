@@ -12,8 +12,16 @@ https://github.com/1017416696/ncepu-pro-master-thesis.git(ncepu-pro-master-thesi
 如遇到使用问题，请在 GitHub 上提交 Issue，并附上详细描述和截图。
 如果问题紧急，请发送邮件至 2269591114@qq.com
 
-# 模板使用
-本模板可在Overleaf平台上流畅运行
+# 模板使用（本地或者Overleaf）
+## 方法1：本地利用Texstudio编译器使用
+1. **点击绿色'Code'按钮,下载zip文件**
+2. **解压zip文件成1个文件夹**
+3. **打开TeXstudio，点击“File>Open”按钮**
+4. **选择解压后文件夹中的"main.tex"文件打开**
+5. **点击“Build & View”按钮(两个绿三角)，即可编译生成pdf**
+6. **注意：第一次运行有“覆盖命令”提示，选择“是”即可**
+
+## 方法2：本模板可在Overleaf平台上流畅运行
 1. **点击绿色'Code'按钮,下载zip文件**
 2. **上传zip文件到Overleaf平台**
 3. **点击Menu,选择'Xelatex'Compiler编译**

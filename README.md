@@ -17,11 +17,20 @@ https://github.com/1017416696/ncepu-pro-master-thesis.git(ncepu-pro-master-thesi
 1. **点击绿色'Code'按钮,下载zip文件**
 2. **解压zip文件成1个文件夹**
 3. **打开TeXstudio，点击“File>Open”按钮**
-4. **选择解压后文件夹中的"main.tex"文件打开**
+4. **选择解压后文件夹中的"thesis.tex"文件打开**
 5. **点击“Build & View”按钮(两个绿三角)，即可编译生成pdf**
 6. **注意：第一次运行有“覆盖命令”提示，选择“是”即可**
 
-## 方法2：本模板可在Overleaf平台上流畅运行
+## 方法2：本地利用Vscode+Latex插件使用
+1. **点击绿色'Code'按钮,下载zip文件**
+2. **解压zip文件成1个文件夹**
+3. **打开Vscode，点击“File”按钮**
+4. **选择解压后“文件夹”打开**
+5. **点击“thesis.tex”文件**
+6. **进入Workshop插件，点击“构建”(一个绿三角)，即可成功编译**
+7. **注意：不要点击下拉栏中的'Xe-bib-Xe*2'编译链编译**
+
+## 方法3：本模板可在Overleaf平台上流畅运行
 1. **点击绿色'Code'按钮,下载zip文件**
 2. **上传zip文件到Overleaf平台**
 3. **点击Menu,选择'Xelatex'Compiler编译**

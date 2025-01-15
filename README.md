@@ -27,8 +27,8 @@ https://github.com/1017416696/ncepu-pro-master-thesis.git(ncepu-pro-master-thesi
 3. **打开Vscode，点击“File”按钮**
 4. **选择解压后“文件夹”打开**
 5. **点击“thesis.tex”文件**
-6. **进入Workshop插件，点击“构建”(一个绿三角)，即可成功编译**
-7. **注意：不要点击下拉栏中的'Xe-bib-Xe*2'编译链编译**
+6. **进入Workshop插件，选用"Xelatex-biber-xelatex*2"，即可成功编译**
+7. **注意：不要点击'Xelatex-bibtex-xelatex*2'编译链编译**
 
 ## 方法3：本模板可在Overleaf平台上流畅运行
 1. **点击绿色'Code'按钮,下载zip文件**
